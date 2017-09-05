@@ -1,0 +1,14 @@
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnitTests.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnitTests.pdb
+D:\PhoneMazeGame\UnitTests\bin\Debug\Assembly-CSharp.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEngine.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\Assembly-CSharp.pdb
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEngine.xml
+D:\PhoneMazeGame\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+D:\PhoneMazeGame\UnitTests\obj\Debug\UnitTests.dll
+D:\PhoneMazeGame\UnitTests\obj\Debug\UnitTests.pdb
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEngine.UI.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEditor.dll
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEngine.UI.xml
+D:\PhoneMazeGame\UnitTests\bin\Debug\UnityEditor.xml

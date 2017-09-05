@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B19A834-051E-22A6-D53C-E69A5F7B646F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Code\AdSystem.cs" />
+    <Compile Include="Assets\Code\ConcreteClasses\DTOs\BeatenLevelDTO.cs" />
+    <Compile Include="Assets\Code\ConcreteClasses\Octagon.cs" />
+    <Compile Include="Assets\Code\ConcreteClasses\Puzzle.cs" />
+    <Compile Include="Assets\Code\ConcreteClasses\PuzzleCategoryDescriptor.cs" />
+    <Compile Include="Assets\Code\ConcreteClasses\TimeConverter.cs" />
+    <Compile Include="Assets\Code\Data\BeatenLevelCommunicator.cs" />
+    <Compile Include="Assets\Code\HintSystem.cs" />
+    <Compile Include="Assets\Code\PathTraverser.cs" />
+    <Compile Include="Assets\Code\Save\PuzzlePersistence.cs" />
+    <Compile Include="Assets\Code\Save\PuzzleSaveClass.cs" />
+    <Compile Include="Assets\Code\Save\SettingsLinkClass.cs" />
+    <Compile Include="Assets\Code\Save\SettingsPersistence.cs" />
+    <Compile Include="Assets\Code\Save\SettingsSaveClass.cs" />
+    <Compile Include="Assets\Code\TextPuzzleParser.cs" />
+    <Compile Include="Assets\Code\Utilities\Constants.cs" />
+    <Compile Include="Assets\Code\Utilities\EnumToColorConverter.cs" />
+    <Compile Include="Assets\Code\Utilities\Enumerations.cs" />
+    <Compile Include="Assets\Code\Utilities\UnityUtility.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+    <Compile Include="Assets\Scripts\ActionControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Ad Scripts\BottomBannerScript.cs" />
+    <Compile Include="Assets\Scripts\Ad Scripts\InterstitialAdScript.cs" />
+    <Compile Include="Assets\Scripts\ApplicationStartUp.cs" />
+    <Compile Include="Assets\Scripts\BackgroundScripts\BackgroundOctagonControllerScript.cs" />
+    <Compile Include="Assets\Scripts\CenterScreenFloatingTextScript.cs" />
+    <Compile Include="Assets\Scripts\DisableParentCanvasGroupScript.cs" />
+    <Compile Include="Assets\Scripts\DontDestroyOnLoadScript.cs" />
+    <Compile Include="Assets\Scripts\DynamicGridScript.cs" />
+    <Compile Include="Assets\Scripts\FloatScript.cs" />
+    <Compile Include="Assets\Scripts\GrowShrinkScript.cs" />
+    <Compile Include="Assets\Scripts\HighlightPathScript.cs" />
+    <Compile Include="Assets\Scripts\LightIntensifyThenFadeScript.cs" />
+    <Compile Include="Assets\Scripts\MainCameraOnSceneLoadScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenuNavigtationScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenuOnClickScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonControllerScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonFadeOutScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonRotationResetScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonSwapResetScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonSwapScript.cs" />
+    <Compile Include="Assets\Scripts\OctagonWinScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleCategoryInfoScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleCategoryPopulatorScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleContainerSelectScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleControllerScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleMenuLevelSelectScript.cs" />
+    <Compile Include="Assets\Scripts\PuzzleMenuPopulatorScript.cs" />
+    <Compile Include="Assets\Scripts\ReturnToMainMenuScript.cs" />
+    <Compile Include="Assets\Scripts\RotatePieceScript.cs" />
+    <Compile Include="Assets\Scripts\RotateToSpecificZAngleScript.cs" />
+    <Compile Include="Assets\Scripts\ShareOnSocialMediaScript.cs" />
+    <Compile Include="Assets\Scripts\ShowFPSScript.cs" />
+    <Compile Include="Assets\Scripts\SpinScript.cs" />
+    <Compile Include="Assets\Scripts\TimeUpdaterScript.cs" />
+    <Compile Include="Assets\Scripts\WallScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GoogleMobileAds\PlayServicesResolver\Editor\play-services-resolver.txt" />
+    <None Include="Assets\GoogleMobileAds\PlayServicesResolver\proguard-messaging-workaround.txt" />
+    <None Include="Assets\GoogleMobileAds\PlayServicesResolver\proguard-unity.txt" />
+    <None Include="Assets\GoogleMobileAds\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Resources\Puzzles\2x2\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 2.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 3.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 4.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 5.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 6.xml" />
+    <None Include="Assets\Resources\Puzzles\3x3\Level 7.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 10.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 11.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 12.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 13.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 2.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 3.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 4.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 5.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 6.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 7.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 8.xml" />
+    <None Include="Assets\Resources\Puzzles\4x4\Level 9.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 10.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 11.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 12.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 13.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 14.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 15.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 16.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 17.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 18.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 2.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 3.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 4.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 5.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 6.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 7.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 8.xml" />
+    <None Include="Assets\Resources\Puzzles\5x5\Level 9.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 10.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 11.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 12.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 13.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 14.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 15.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 16.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 17.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 18.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 19.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 2.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 20.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 21.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 22.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 3.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 4.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 5.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 6.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 7.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 8.xml" />
+    <None Include="Assets\Resources\Puzzles\6x6\Level 9.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 1.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 10.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 11.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 12.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 13.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 14.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 15.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 16.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 17.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 18.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 2.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 3.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 4.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 5.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 6.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 7.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 8.xml" />
+    <None Include="Assets\Resources\Puzzles\7x7\Level 9.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

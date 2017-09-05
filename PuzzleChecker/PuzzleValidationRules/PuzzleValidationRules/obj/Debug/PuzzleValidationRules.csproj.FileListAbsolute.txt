@@ -1,0 +1,6 @@
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\bin\Debug\PuzzleValidationRules.exe.config
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\bin\Debug\PuzzleValidationRules.exe
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\bin\Debug\PuzzleValidationRules.pdb
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\obj\Debug\PuzzleValidationRules.exe
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\obj\Debug\PuzzleValidationRules.pdb
+D:\PhoneMazeGame\PuzzleChecker\PuzzleValidationRules\PuzzleValidationRules\obj\Debug\PuzzleValidationRules.csprojResolveAssemblyReference.cache
